@@ -35,6 +35,12 @@
 
 /* Begin PBXFileReference section */
 		33A818D642FCC420F32B5B38 /* Pods_Cocoapod_Movie_MicroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cocoapod_Movie_MicroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26634472B9F805400CF0A9E /* TabMicro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TabMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B266344B2B9F805A00CF0A9E /* SearchMicro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SearchMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B266344E2B9F805F00CF0A9E /* HomeMicro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26634512B9F806300CF0A9E /* FavoriteMicro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FavoriteMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26634542B9F806700CF0A9E /* DataModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26634572B9F806B00CF0A9E /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FCB0D22B92887300082CE6 /* Cocoapod_Movie_MicroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocoapod_Movie_MicroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FCB0D52B92887300082CE6 /* Cocoapod_Movie_MicroAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocoapod_Movie_MicroAppApp.swift; sourceTree = "<group>"; };
 		B2FCB0D92B92887500082CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +149,12 @@
 		DE2515CE1DE74465BC1B5B38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B26634572B9F806B00CF0A9E /* CommonUI.framework */,
+				B26634542B9F806700CF0A9E /* DataModels.framework */,
+				B26634512B9F806300CF0A9E /* FavoriteMicro.framework */,
+				B266344E2B9F805F00CF0A9E /* HomeMicro.framework */,
+				B266344B2B9F805A00CF0A9E /* SearchMicro.framework */,
+				B26634472B9F805400CF0A9E /* TabMicro.framework */,
 				33A818D642FCC420F32B5B38 /* Pods_Cocoapod_Movie_MicroApp.framework */,
 			);
 			name = Frameworks;

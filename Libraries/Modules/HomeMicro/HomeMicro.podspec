@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '5.0'
   spec.ios.deployment_target = "17.0"
   spec.dependency 'CommonUI', '~> 0.0.1'
+  spec.dependency 'DataModels', '~> 0.0.1'
 
 end

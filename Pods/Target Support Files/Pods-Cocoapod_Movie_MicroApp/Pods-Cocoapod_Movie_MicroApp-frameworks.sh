@@ -177,6 +177,7 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FavoriteMicro/FavoriteMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeMicro/HomeMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SearchMicro/SearchMicro.framework"
@@ -184,6 +185,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FavoriteMicro/FavoriteMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeMicro/HomeMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SearchMicro/SearchMicro.framework"

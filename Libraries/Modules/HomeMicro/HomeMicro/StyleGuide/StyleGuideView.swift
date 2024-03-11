@@ -6,7 +6,7 @@
 //
 
 import CommonUI
-//import DataModels
+import DataModels
 //import FeatureComponent
 //import FeatureView
 import SwiftUI
@@ -32,12 +32,12 @@ struct StyleGuideView: View {
             
             SearchBarGuideView(searchText: $searchText, isSearching: $isSearching)
             UnderlineView()
-            //            
-            //            MovieRowView()
-            //            UnderlineView()
-            //            
-            //            MovieCardView()
-            //            UnderlineView()
+                        
+                        MovieRowView()
+                        UnderlineView()
+                        
+                        MovieCardView()
+                        UnderlineView()
             //            
             //            MovieDetailsDemoView()
             //            UnderlineView()
@@ -163,65 +163,65 @@ struct SearchBarGuideView: View {
         .padding(.bottom)
     }
 }
-//
-//// Movie Row
-//struct MovieRowView: View {
-//    let mockMovie = Movie(
-//        title: "Movie Title",
-//        year: "0000",
-//        imdbId: "12345",
-//        type: "movie",
-//        posterUrl: "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-//    )
-//    
-//    var body: some View {
-//        VStack {
-//            Text("Movie Row Guide")
-//                .subTitleTextStyle()
-//                .padding()
-//                .border(Color.secondaryDark)
-//            
-//            MovieRow(movie: mockMovie)
-//        }
-//        .padding(.bottom)
-//    }
-//}
-//
-//// Movie Card
-//struct MovieCardView: View {
-//    let mockMovie = Movie(
-//        title: "Movie Title",
-//        year: "0000",
-//        imdbId: "12345",
-//        type: "movie",
-//        posterUrl: "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-//    )
-//    
-//    var body: some View {
-//        VStack {
-//            Text("Movie Card Guide")
-//                .subTitleTextStyle()
-//                .padding()
-//                .border(Color.secondaryDark)
-//            
-//            ScrollView(.horizontal) {
-//                HStack {
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                    MovieCard(movie: mockMovie)
-//                }
-//            }
-//        }
-//        .padding(.bottom)
-//    }
-//}
-//
+
+// Movie Row
+struct MovieRowView: View {
+    let mockMovie = Movie(
+        title: "Movie Title",
+        year: "0000",
+        imdbId: "12345",
+        type: "movie",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    )
+    
+    var body: some View {
+        VStack {
+            Text("Movie Row Guide")
+                .subTitleTextStyle()
+                .padding()
+                .border(Color.secondaryDark)
+            
+            MovieRow(movie: mockMovie)
+        }
+        .padding(.bottom)
+    }
+}
+
+// Movie Card
+struct MovieCardView: View {
+    let mockMovie = Movie(
+        title: "Movie Title",
+        year: "0000",
+        imdbId: "12345",
+        type: "movie",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    )
+    
+    var body: some View {
+        VStack {
+            Text("Movie Card Guide")
+                .subTitleTextStyle()
+                .padding()
+                .border(Color.secondaryDark)
+            
+            ScrollView(.horizontal) {
+                HStack {
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                    MovieCard(movie: mockMovie)
+                }
+            }
+        }
+        .padding(.bottom)
+    }
+}
+
 //// Movie Details Common
 //struct MovieDetailsDemoView: View {
 //    let mockMovie = Movie(

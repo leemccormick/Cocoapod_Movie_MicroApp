@@ -11,4 +11,5 @@ target 'Cocoapod_Movie_MicroApp' do
   pod 'SearchMicro', :path => './Libraries/Modules/SearchMicro'
   pod 'FavoriteMicro', :path => './Libraries/Modules/FavoriteMicro'
   pod 'CommonUI', :path => './Libraries/Utilities/CommonUI'
+  pod 'DataModels', :path => './Libraries/Utilities/DataModels'
 end

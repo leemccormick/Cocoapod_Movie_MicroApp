@@ -16,5 +16,10 @@
   "platforms": {
     "ios": "17.0"
   },
+  "dependencies": {
+    "DataModels": [
+      "~> 0.0.1"
+    ]
+  },
   "swift_version": "5.0"
 }
