@@ -10,10 +10,18 @@ import SwiftUI
 public struct HomeNavigationView: View {
     public init() {}
     public var body: some View {
-        VStack {
-            Text("Home Navigation View")
-            HomeView()
+        NavigationView {
+            VStack {
+                NavigationLink(destination: StyleGuideView()) {
+                    Text("Go to StyleGuideView View")
+                }
+            }
+            .navigationTitle("Main View")
         }
+//        VStack {
+//            Text("Home Navigation View")
+//            HomeView()
+//        }
     }
 }
 

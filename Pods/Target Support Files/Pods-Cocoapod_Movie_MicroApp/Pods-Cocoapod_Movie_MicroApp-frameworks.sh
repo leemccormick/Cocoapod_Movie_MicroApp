@@ -176,12 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FavoriteMicro/FavoriteMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeMicro/HomeMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SearchMicro/SearchMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TabMicro/TabMicro.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FavoriteMicro/FavoriteMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HomeMicro/HomeMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SearchMicro/SearchMicro.framework"

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B26633A72B9F678000CF0A9E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633A62B9F678000CF0A9E /* HomeView.swift */; };
 		B26633AA2B9F67AF00CF0A9E /* HomeNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633A92B9F67AF00CF0A9E /* HomeNavigationView.swift */; };
+		B26633EB2B9F770E00CF0A9E /* StyleGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633EA2B9F770E00CF0A9E /* StyleGuideView.swift */; };
 		B2FCB1342B928FF100082CE6 /* HomeMicro.docc in Sources */ = {isa = PBXBuildFile; fileRef = B2FCB1332B928FF100082CE6 /* HomeMicro.docc */; };
 		B2FCB13A2B928FF100082CE6 /* HomeMicro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FCB12F2B928FF100082CE6 /* HomeMicro.framework */; };
 		B2FCB13F2B928FF100082CE6 /* HomeMicroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCB13E2B928FF100082CE6 /* HomeMicroTests.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		B26633A62B9F678000CF0A9E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B26633A92B9F67AF00CF0A9E /* HomeNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationView.swift; sourceTree = "<group>"; };
+		B26633EA2B9F770E00CF0A9E /* StyleGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideView.swift; sourceTree = "<group>"; };
 		B2FCB12F2B928FF100082CE6 /* HomeMicro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FCB1332B928FF100082CE6 /* HomeMicro.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HomeMicro.docc; sourceTree = "<group>"; };
 		B2FCB1392B928FF100082CE6 /* HomeMicroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeMicroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,14 @@
 			path = HomeNavigationView;
 			sourceTree = "<group>";
 		};
+		B26633E92B9F76CD00CF0A9E /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				B26633EA2B9F770E00CF0A9E /* StyleGuideView.swift */,
+			);
+			path = StyleGuide;
+			sourceTree = "<group>";
+		};
 		B2FCB1252B928FF100082CE6 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +99,7 @@
 		B2FCB1312B928FF100082CE6 /* HomeMicro */ = {
 			isa = PBXGroup;
 			children = (
+				B26633E92B9F76CD00CF0A9E /* StyleGuide */,
 				B26633A82B9F678E00CF0A9E /* HomeNavigationView */,
 				B26633A52B9F676100CF0A9E /* HomeView */,
 				B2FCB1332B928FF100082CE6 /* HomeMicro.docc */,
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26633AA2B9F67AF00CF0A9E /* HomeNavigationView.swift in Sources */,
+				B26633EB2B9F770E00CF0A9E /* StyleGuideView.swift in Sources */,
 				B2FCB1342B928FF100082CE6 /* HomeMicro.docc in Sources */,
 				B26633A72B9F678000CF0A9E /* HomeView.swift in Sources */,
 			);
