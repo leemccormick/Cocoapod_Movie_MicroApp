@@ -22,6 +22,9 @@
     ],
     "DataModels": [
       "~> 0.0.1"
+    ],
+    "Navigation": [
+      "~> 0.0.1"
     ]
   },
   "swift_version": "5.0"

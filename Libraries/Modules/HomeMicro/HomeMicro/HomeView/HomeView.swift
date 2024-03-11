@@ -6,10 +6,32 @@
 //
 
 import SwiftUI
+import CommonUI
 
 struct HomeView: View {
+    @ObservedObject var viewModel = HomeViewModel()
+    
+    var didAppear: ((Self) -> Void)?
+    
     var body: some View {
-        Text("HomeView")
+        VStack {
+            HStack {
+                Image(systemName: "house")
+                    .imageScale(.large)
+                    .foregroundStyle(Color.primaryDark)
+                    .fontWeight(.bold)
+                
+                Text("HOME VIEW!!!")
+                    .largeTitleTextStyle()
+            }
+            
+            Button("See style guide") {
+                viewModel.seeStyleGuideButtonTapped()
+            }
+            .buttonStyle(GreenButton(isEnabled: true))
+        }
+        .onAppear { self.didAppear?(self) }
+        .padding()
     }
 }
 

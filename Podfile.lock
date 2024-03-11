@@ -7,6 +7,8 @@ PODS:
   - HomeMicro (0.0.1):
     - CommonUI (~> 0.0.1)
     - DataModels (~> 0.0.1)
+    - Navigation (~> 0.0.1)
+  - Navigation (0.0.1)
   - SearchMicro (0.0.1)
   - TabMicro (0.0.1):
     - FavoriteMicro (~> 0.0.1)
@@ -20,6 +22,7 @@ DEPENDENCIES:
   - DataModels (from `./Libraries/Utilities/DataModels`)
   - FavoriteMicro (from `./Libraries/Modules/FavoriteMicro`)
   - HomeMicro (from `./Libraries/Modules/HomeMicro`)
+  - Navigation (from `./Libraries/Utilities/Navigation`)
   - SearchMicro (from `./Libraries/Modules/SearchMicro`)
   - TabMicro (from `./Libraries/Modules/TabMicro`)
   - UserData (from `./Libraries/Utilities/UserData`)
@@ -33,6 +36,8 @@ EXTERNAL SOURCES:
     :path: "./Libraries/Modules/FavoriteMicro"
   HomeMicro:
     :path: "./Libraries/Modules/HomeMicro"
+  Navigation:
+    :path: "./Libraries/Utilities/Navigation"
   SearchMicro:
     :path: "./Libraries/Modules/SearchMicro"
   TabMicro:
@@ -44,11 +49,12 @@ SPEC CHECKSUMS:
   CommonUI: eafb053ededa2987216233275d3d4df174531637
   DataModels: 7a8a832ad2eb95452f275bdb9f28266e80b60adc
   FavoriteMicro: ffaa8ee05b40f5714b412cbdde728bc53eefd064
-  HomeMicro: 044de89e642c8521d029913197f03e2391538c87
+  HomeMicro: 58238be2e2e8ee3eb6f562c2695c3c8339b0f266
+  Navigation: 5bb23277c7a254c33dfbda50b67ed7f878c88b24
   SearchMicro: 661966450c8285681d01eceed541e376eb19fa5d
   TabMicro: b58af8fbe81d89df12ed0de5c62181e33a3d1e0b
   UserData: 6666196b7c4cc4aef8cf1fda05d41a071b8cb973
 
-PODFILE CHECKSUM: 718129917fe2b0ca4f05af25e8d7542f56d9936f
+PODFILE CHECKSUM: f365f39fd4c64b1db58192987ffde5163c0e22a9
 
 COCOAPODS: 1.13.0

@@ -14,5 +14,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "17.0"
   spec.dependency 'CommonUI', '~> 0.0.1'
   spec.dependency 'DataModels', '~> 0.0.1'
+  spec.dependency 'Navigation', '~> 0.0.1'
 
 end
