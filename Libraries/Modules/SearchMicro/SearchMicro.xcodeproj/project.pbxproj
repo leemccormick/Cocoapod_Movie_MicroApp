@@ -12,6 +12,9 @@
 		B26633622B9F587200CF0A9E /* SearchMicroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633612B9F587200CF0A9E /* SearchMicroTests.swift */; };
 		B266336D2B9F58A500CF0A9E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B266336C2B9F58A500CF0A9E /* SearchView.swift */; };
 		B26633AF2B9F68A800CF0A9E /* SearchNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633AE2B9F68A800CF0A9E /* SearchNavigationView.swift */; };
+		B26634EC2B9FAB5000CF0A9E /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26634EB2B9FAB5000CF0A9E /* SearchRouter.swift */; };
+		B26634EF2B9FAB7000CF0A9E /* SearchNavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26634EE2B9FAB7000CF0A9E /* SearchNavigationViewModel.swift */; };
+		B26634F22B9FAC5200CF0A9E /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26634F12B9FAC5200CF0A9E /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,9 @@
 		B26633612B9F587200CF0A9E /* SearchMicroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMicroTests.swift; sourceTree = "<group>"; };
 		B266336C2B9F58A500CF0A9E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		B26633AE2B9F68A800CF0A9E /* SearchNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigationView.swift; sourceTree = "<group>"; };
+		B26634EB2B9FAB5000CF0A9E /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		B26634EE2B9FAB7000CF0A9E /* SearchNavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigationViewModel.swift; sourceTree = "<group>"; };
+		B26634F12B9FAC5200CF0A9E /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,7 @@
 		B26633542B9F587200CF0A9E /* SearchMicro */ = {
 			isa = PBXGroup;
 			children = (
-				B26633AD2B9F687800CF0A9E /* SearchNavigationView */,
+				B26633AD2B9F687800CF0A9E /* SearchNavigation */,
 				B26633562B9F587200CF0A9E /* SearchMicro.docc */,
 				B26633AC2B9F686600CF0A9E /* SearchView */,
 			);
@@ -92,16 +98,35 @@
 			isa = PBXGroup;
 			children = (
 				B266336C2B9F58A500CF0A9E /* SearchView.swift */,
+				B26634F12B9FAC5200CF0A9E /* SearchViewModel.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
 		};
-		B26633AD2B9F687800CF0A9E /* SearchNavigationView */ = {
+		B26633AD2B9F687800CF0A9E /* SearchNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				B26634EA2B9FAB3F00CF0A9E /* Router */,
+				B26634ED2B9FAB5600CF0A9E /* Root */,
+			);
+			path = SearchNavigation;
+			sourceTree = "<group>";
+		};
+		B26634EA2B9FAB3F00CF0A9E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B26634EB2B9FAB5000CF0A9E /* SearchRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B26634ED2B9FAB5600CF0A9E /* Root */ = {
 			isa = PBXGroup;
 			children = (
 				B26633AE2B9F68A800CF0A9E /* SearchNavigationView.swift */,
+				B26634EE2B9FAB7000CF0A9E /* SearchNavigationViewModel.swift */,
 			);
-			path = SearchNavigationView;
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26634F22B9FAC5200CF0A9E /* SearchViewModel.swift in Sources */,
+				B26634EF2B9FAB7000CF0A9E /* SearchNavigationViewModel.swift in Sources */,
+				B26634EC2B9FAB5000CF0A9E /* SearchRouter.swift in Sources */,
 				B266336D2B9F58A500CF0A9E /* SearchView.swift in Sources */,
 				B26633572B9F587200CF0A9E /* SearchMicro.docc in Sources */,
 				B26633AF2B9F68A800CF0A9E /* SearchNavigationView.swift in Sources */,

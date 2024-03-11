@@ -12,7 +12,11 @@ PODS:
     - DataModels (~> 0.0.1)
     - Navigation (~> 0.0.1)
   - Navigation (0.0.1)
-  - SearchMicro (0.0.1)
+  - SearchMicro (0.0.1):
+    - ApiService (~> 0.0.1)
+    - CommonUI (~> 0.0.1)
+    - DataModels (~> 0.0.1)
+    - Navigation (~> 0.0.1)
   - TabMicro (0.0.1):
     - FavoriteMicro (~> 0.0.1)
     - HomeMicro (~> 0.0.1)
@@ -58,7 +62,7 @@ SPEC CHECKSUMS:
   FavoriteMicro: ffaa8ee05b40f5714b412cbdde728bc53eefd064
   HomeMicro: ee4acca866702c4b8f29d5f54031f0832ae9f98a
   Navigation: 5bb23277c7a254c33dfbda50b67ed7f878c88b24
-  SearchMicro: 661966450c8285681d01eceed541e376eb19fa5d
+  SearchMicro: 1e66474da37f16c6516cf97c4fc12752d88ec757
   TabMicro: b58af8fbe81d89df12ed0de5c62181e33a3d1e0b
   UserData: 6666196b7c4cc4aef8cf1fda05d41a071b8cb973
 
