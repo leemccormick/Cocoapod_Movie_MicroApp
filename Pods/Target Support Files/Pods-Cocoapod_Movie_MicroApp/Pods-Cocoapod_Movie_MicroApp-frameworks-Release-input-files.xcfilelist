@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Cocoapod_Movie_MicroApp/Pods-Cocoapod_Movie_MicroApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FavoriteMicro/FavoriteMicro.framework
+${BUILT_PRODUCTS_DIR}/HomeMicro/HomeMicro.framework
+${BUILT_PRODUCTS_DIR}/SearchMicro/SearchMicro.framework
+${BUILT_PRODUCTS_DIR}/TabMicro/TabMicro.framework

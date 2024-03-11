@@ -1,0 +1,34 @@
+PODS:
+  - FavoriteMicro (0.0.1)
+  - HomeMicro (0.0.1)
+  - SearchMicro (0.0.1)
+  - TabMicro (0.0.1):
+    - FavoriteMicro (~> 0.0.1)
+    - HomeMicro (~> 0.0.1)
+    - SearchMicro (~> 0.0.1)
+
+DEPENDENCIES:
+  - FavoriteMicro (from `./Libraries/Modules/FavoriteMicro`)
+  - HomeMicro (from `./Libraries/Modules/HomeMicro`)
+  - SearchMicro (from `./Libraries/Modules/SearchMicro`)
+  - TabMicro (from `./Libraries/Modules/TabMicro`)
+
+EXTERNAL SOURCES:
+  FavoriteMicro:
+    :path: "./Libraries/Modules/FavoriteMicro"
+  HomeMicro:
+    :path: "./Libraries/Modules/HomeMicro"
+  SearchMicro:
+    :path: "./Libraries/Modules/SearchMicro"
+  TabMicro:
+    :path: "./Libraries/Modules/TabMicro"
+
+SPEC CHECKSUMS:
+  FavoriteMicro: ffaa8ee05b40f5714b412cbdde728bc53eefd064
+  HomeMicro: 5704599d8da19e6b178f2a49a1f905f0ccb09409
+  SearchMicro: 661966450c8285681d01eceed541e376eb19fa5d
+  TabMicro: b58af8fbe81d89df12ed0de5c62181e33a3d1e0b
+
+PODFILE CHECKSUM: 33569783c768924f89389b35c4b1412b91969ea0
+
+COCOAPODS: 1.13.0

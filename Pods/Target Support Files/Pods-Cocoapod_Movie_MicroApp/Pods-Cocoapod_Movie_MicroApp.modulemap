@@ -1,0 +1,6 @@
+framework module Pods_Cocoapod_Movie_MicroApp {
+  umbrella header "Pods-Cocoapod_Movie_MicroApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

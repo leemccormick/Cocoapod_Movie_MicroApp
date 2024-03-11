@@ -1,0 +1,31 @@
+{
+  "name": "TabMicro",
+  "version": "0.0.1",
+  "summary": "A short description of TabMicro.",
+  "description": "A TabMicro App for demonstration purposes.",
+  "homepage": "http://EXAMPLE/TabMicro",
+  "license": "MIT",
+  "authors": {
+    "Lee McCormick": "lee.mccormick@dialexa.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "TabMicro/**/*.{swift}",
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "17.0"
+  },
+  "dependencies": {
+    "HomeMicro": [
+      "~> 0.0.1"
+    ],
+    "SearchMicro": [
+      "~> 0.0.1"
+    ],
+    "FavoriteMicro": [
+      "~> 0.0.1"
+    ]
+  },
+  "swift_version": "5.0"
+}

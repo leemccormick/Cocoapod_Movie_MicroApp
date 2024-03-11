@@ -1,0 +1,6 @@
+framework module HomeMicro {
+  umbrella header "HomeMicro-umbrella.h"
+
+  export *
+  module * { export * }
+}

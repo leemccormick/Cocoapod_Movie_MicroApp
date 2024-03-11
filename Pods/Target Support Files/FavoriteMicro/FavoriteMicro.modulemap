@@ -1,0 +1,6 @@
+framework module FavoriteMicro {
+  umbrella header "FavoriteMicro-umbrella.h"
+
+  export *
+  module * { export * }
+}

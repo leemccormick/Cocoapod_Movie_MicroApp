@@ -1,0 +1,6 @@
+framework module SearchMicro {
+  umbrella header "SearchMicro-umbrella.h"
+
+  export *
+  module * { export * }
+}

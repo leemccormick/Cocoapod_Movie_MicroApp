@@ -1,0 +1,1311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CF0C6F337A056BB471868AC6C9C72E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A3B3CB688E2056B20E2597AD22822C /* SearchView.swift */; };
+		164EA22E11E5E538349C3825C1FF4350 /* FavoriteMicro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5107B0DDAB431901150311F89C3D7AD8 /* FavoriteMicro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FCCCFF5CA00BBD3F2E75437EF0CA66E /* HomeNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2826F50361BD1C90106B74F147EE7CC /* HomeNavigationView.swift */; };
+		49F18F2F7DA4B13E35DAFA713B24B155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5EDB0F8611604201CA017F1C62FD97BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73486610A4A90F343EBBF31926A3E8BF /* Pods-Cocoapod_Movie_MicroApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1B1F67037B475B2F53B579868C2CDB /* Pods-Cocoapod_Movie_MicroApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74459B2495CFD627717721BFFC973ABC /* HomeMicro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A82F33C033238B2A7B547944686D2B /* HomeMicro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4C6A13F912EB4AA12F8E0315A25FC0 /* TabMicro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9606CF6297FCB1C9ED3B374F07E2FEB /* TabMicro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C4A74780734EE91711F4EAA1A83D6E /* Pods-Cocoapod_Movie_MicroApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61C61B3CAC04BB203B1F70BD7445EED /* Pods-Cocoapod_Movie_MicroApp-dummy.m */; };
+		9B3A4F6225A1081A319525430D29CC68 /* SearchNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52D8B3B510C64DFA93F40723DC0729 /* SearchNavigationView.swift */; };
+		9FA5D59850803E1B84EEDEC773467159 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70CED2FE1F3922398F790F64842616 /* HomeView.swift */; };
+		B7E96770329E6CA79FA1A694AAF04B08 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738165106DE2FEC810F915E853C52008 /* FavoriteView.swift */; };
+		B89699C3D2DEDA9265CF441245B1FDAC /* FavoriteMicro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F505E3BC429B42D2CA0B8FBC6E09007B /* FavoriteMicro-dummy.m */; };
+		C114CCCD52296D3477EF87F11393638E /* TabMicro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA621FB9AC7F5538626883EA6B577A02 /* TabMicro-dummy.m */; };
+		C40F5888E6D50C4A89D3101ED8ED45BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CFBA123A51EBFD47C259001F8942C732 /* SearchMicro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 591CF3E01716CF26944C72A93AA37098 /* SearchMicro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99529F2CA7DA2D6AAFF985FA57BFC87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DC30A4901EF1BB9A523565552BB91C2A /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627C671F0A47B0624E65FD342DB444C1 /* BottomTabView.swift */; };
+		E28F484DD9ACFD607A6FF91685D0C23F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E3893E4BDA232BB6166446B77798A3E2 /* FavoriteNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766533CFB3B785C026D948929C8AF09 /* FavoriteNavigationView.swift */; };
+		E6EA89077DD81DB0F30780AFC95C9BEE /* SearchMicro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9731B2D078B933CB08598839E48ACBE /* SearchMicro-dummy.m */; };
+		ED679A6948328C4CDC486EBAB006EB59 /* HomeMicro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08304A29E83C9CBA4BC2984993C6095A /* HomeMicro-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09EA41AB0345551C5F0395B9594C96FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9E5F9C1F5A01A03884F169D35B4317;
+			remoteInfo = FavoriteMicro;
+		};
+		0A97D69C19925DDBC165172A9FCFE5B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8260CBC06828436726120B0068DA4E2;
+			remoteInfo = SearchMicro;
+		};
+		86D7D99C3975D85EACDD84B515B67284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE09E996A689F1604E005615A4E23DC;
+			remoteInfo = TabMicro;
+		};
+		8FBCE5CABBC387D4FF160FFD5DF527C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8260CBC06828436726120B0068DA4E2;
+			remoteInfo = SearchMicro;
+		};
+		BE266507C000B2EE3F132253D04F0087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF126141A2C7DBBDD585979B8DEC3B8;
+			remoteInfo = HomeMicro;
+		};
+		CE98D88EF7396B20D5FB50E6A555906E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF126141A2C7DBBDD585979B8DEC3B8;
+			remoteInfo = HomeMicro;
+		};
+		EDA3623C0D21EF050ED51C44474F6D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9E5F9C1F5A01A03884F169D35B4317;
+			remoteInfo = FavoriteMicro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014217D81BFC91318AE7246D27F2261A /* Pods-Cocoapod_Movie_MicroApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cocoapod_Movie_MicroApp"; path = Pods_Cocoapod_Movie_MicroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B9FF86EEE5135401F24F35AC51FF7E /* Pods-Cocoapod_Movie_MicroApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cocoapod_Movie_MicroApp-Info.plist"; sourceTree = "<group>"; };
+		08304A29E83C9CBA4BC2984993C6095A /* HomeMicro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomeMicro-dummy.m"; sourceTree = "<group>"; };
+		1C1B1F67037B475B2F53B579868C2CDB /* Pods-Cocoapod_Movie_MicroApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cocoapod_Movie_MicroApp-umbrella.h"; sourceTree = "<group>"; };
+		1C8C15CEFF53B3C6165311790BD02BB6 /* HomeMicro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeMicro-prefix.pch"; sourceTree = "<group>"; };
+		233155486C963619430C78DAA9461899 /* FavoriteMicro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FavoriteMicro-prefix.pch"; sourceTree = "<group>"; };
+		26A82F33C033238B2A7B547944686D2B /* HomeMicro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeMicro-umbrella.h"; sourceTree = "<group>"; };
+		2766533CFB3B785C026D948929C8AF09 /* FavoriteNavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteNavigationView.swift; sourceTree = "<group>"; };
+		29DE562DF96DB7B010765BE8CE54365C /* TabMicro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TabMicro; path = TabMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3086C74290EA73C574C1C977E32EDBF9 /* FavoriteMicro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FavoriteMicro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33D149663B12E0A00047FA15B5B27689 /* HomeMicro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HomeMicro; path = HomeMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA5D72AA198398CB46B63DAA0DC69A1 /* HomeMicro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomeMicro.debug.xcconfig; sourceTree = "<group>"; };
+		44137E8936680BE5AD3AFD72838B80FC /* TabMicro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TabMicro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		470E766BE41864C07FFF1FAB0E3C9D6E /* FavoriteMicro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FavoriteMicro; path = FavoriteMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFC641853484A6A3C6B3898661DFDB6 /* Pods-Cocoapod_Movie_MicroApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cocoapod_Movie_MicroApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5107B0DDAB431901150311F89C3D7AD8 /* FavoriteMicro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FavoriteMicro-umbrella.h"; sourceTree = "<group>"; };
+		51F0C9247FB3E892D7A8B368D4BC6AD9 /* SearchMicro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SearchMicro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		591CF3E01716CF26944C72A93AA37098 /* SearchMicro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchMicro-umbrella.h"; sourceTree = "<group>"; };
+		6091D3ACD88A0B852794E7D3345088B2 /* Pods-Cocoapod_Movie_MicroApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cocoapod_Movie_MicroApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		627C671F0A47B0624E65FD342DB444C1 /* BottomTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomTabView.swift; path = TabMicro/BottomTabView.swift; sourceTree = "<group>"; };
+		676BD10EC3C5EDCD787F645816A7271F /* FavoriteMicro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FavoriteMicro.debug.xcconfig; sourceTree = "<group>"; };
+		67C5E3B973C3F76F35C6DA1C31168237 /* TabMicro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TabMicro.release.xcconfig; sourceTree = "<group>"; };
+		6B7A8B9DD46241262E84D7298476D30A /* SearchMicro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchMicro.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		738165106DE2FEC810F915E853C52008 /* FavoriteView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		740235F8B7C348DA3212F7D9653D60A9 /* Pods-Cocoapod_Movie_MicroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cocoapod_Movie_MicroApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7A52D8B3B510C64DFA93F40723DC0729 /* SearchNavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchNavigationView.swift; sourceTree = "<group>"; };
+		8E23ABE7D0D92F7AFC1797AD05EAC2D5 /* Pods-Cocoapod_Movie_MicroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cocoapod_Movie_MicroApp.release.xcconfig"; sourceTree = "<group>"; };
+		92F0411DABA7C7EF590FCF3E83468E3B /* Pods-Cocoapod_Movie_MicroApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cocoapod_Movie_MicroApp-frameworks.sh"; sourceTree = "<group>"; };
+		97A3B3CB688E2056B20E2597AD22822C /* SearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9D591217018B94239B86721457DA1223 /* SearchMicro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SearchMicro.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E70CED2FE1F3922398F790F64842616 /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A61C61B3CAC04BB203B1F70BD7445EED /* Pods-Cocoapod_Movie_MicroApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cocoapod_Movie_MicroApp-dummy.m"; sourceTree = "<group>"; };
+		A9606CF6297FCB1C9ED3B374F07E2FEB /* TabMicro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TabMicro-umbrella.h"; sourceTree = "<group>"; };
+		B2826F50361BD1C90106B74F147EE7CC /* HomeNavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeNavigationView.swift; sourceTree = "<group>"; };
+		B8E4F4D3A0225F65B29B27BF856AFCE7 /* HomeMicro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomeMicro.release.xcconfig; sourceTree = "<group>"; };
+		BB2FD087D48DC76C937A1A5037A348AF /* HomeMicro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HomeMicro.modulemap; sourceTree = "<group>"; };
+		BD1C2222FC28CB37ED70F94BBD586743 /* FavoriteMicro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FavoriteMicro.modulemap; sourceTree = "<group>"; };
+		BF217A67CC019F301C2244902CA853A3 /* HomeMicro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomeMicro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1B0D9C00C8E398ADD317F53C31BBDBD /* SearchMicro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchMicro-prefix.pch"; sourceTree = "<group>"; };
+		C573026942DE8DDA188C6D58255779A2 /* SearchMicro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SearchMicro; path = SearchMicro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA38C1F4230859E4C4FA4D633B2C6F4 /* TabMicro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TabMicro-prefix.pch"; sourceTree = "<group>"; };
+		D3376B584D7A4FC9508E00197EAE135A /* TabMicro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TabMicro.debug.xcconfig; sourceTree = "<group>"; };
+		D6294AB84D0685A0C99E650865C03401 /* FavoriteMicro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FavoriteMicro-Info.plist"; sourceTree = "<group>"; };
+		D86A9C9F49CEB990A41DDB31D7D5A3B3 /* HomeMicro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HomeMicro-Info.plist"; sourceTree = "<group>"; };
+		D8FF4D0B0E73AB4DD3EB9A03E8EC3EBF /* TabMicro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TabMicro.modulemap; sourceTree = "<group>"; };
+		DA621FB9AC7F5538626883EA6B577A02 /* TabMicro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TabMicro-dummy.m"; sourceTree = "<group>"; };
+		E0AEC91A9CF274EF761B363CA28BC85E /* Pods-Cocoapod_Movie_MicroApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cocoapod_Movie_MicroApp.modulemap"; sourceTree = "<group>"; };
+		E1A08E02A40760BD33EC758D55BB350B /* FavoriteMicro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FavoriteMicro.release.xcconfig; sourceTree = "<group>"; };
+		E6AE1645C08F7B9B5DCE3023C00515E4 /* SearchMicro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SearchMicro-Info.plist"; sourceTree = "<group>"; };
+		E9731B2D078B933CB08598839E48ACBE /* SearchMicro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SearchMicro-dummy.m"; sourceTree = "<group>"; };
+		EBC27D9F72710130BC4FE6F2F19A55DC /* SearchMicro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchMicro.release.xcconfig; sourceTree = "<group>"; };
+		F505E3BC429B42D2CA0B8FBC6E09007B /* FavoriteMicro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FavoriteMicro-dummy.m"; sourceTree = "<group>"; };
+		FBD728CD2CDEAB8694C0DEF2B8C03598 /* TabMicro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TabMicro-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB0066250503CFB9A33740796D0C748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDB0F8611604201CA017F1C62FD97BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661EA948E2EB784F76350811724D13FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F18F2F7DA4B13E35DAFA713B24B155 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB27B8A55FFC86F5CFB6F14B668616A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99529F2CA7DA2D6AAFF985FA57BFC87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44135D488EDEEAEE4EB4CE19EAF1F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28F484DD9ACFD607A6FF91685D0C23F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D7D6EF592B408801AE24FB00E181ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40F5888E6D50C4A89D3101ED8ED45BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035AE7A21BCC2F356B4BA19382217CDD /* HomeNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				B2826F50361BD1C90106B74F147EE7CC /* HomeNavigationView.swift */,
+			);
+			name = HomeNavigationView;
+			path = HomeMicro/HomeNavigationView;
+			sourceTree = "<group>";
+		};
+		07ECB1675B9A80965CE179476C06444D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D591217018B94239B86721457DA1223 /* SearchMicro.modulemap */,
+				E9731B2D078B933CB08598839E48ACBE /* SearchMicro-dummy.m */,
+				E6AE1645C08F7B9B5DCE3023C00515E4 /* SearchMicro-Info.plist */,
+				C1B0D9C00C8E398ADD317F53C31BBDBD /* SearchMicro-prefix.pch */,
+				591CF3E01716CF26944C72A93AA37098 /* SearchMicro-umbrella.h */,
+				6B7A8B9DD46241262E84D7298476D30A /* SearchMicro.debug.xcconfig */,
+				EBC27D9F72710130BC4FE6F2F19A55DC /* SearchMicro.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/SearchMicro";
+			sourceTree = "<group>";
+		};
+		08BF6A74283B2E3DCACED7A7663986A3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF217A67CC019F301C2244902CA853A3 /* HomeMicro.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0C825D88E8921B6667EAF1815F3F8B26 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				51F0C9247FB3E892D7A8B368D4BC6AD9 /* SearchMicro.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1708E84D6B60CA5E44E465780A5892A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8FF4D0B0E73AB4DD3EB9A03E8EC3EBF /* TabMicro.modulemap */,
+				DA621FB9AC7F5538626883EA6B577A02 /* TabMicro-dummy.m */,
+				FBD728CD2CDEAB8694C0DEF2B8C03598 /* TabMicro-Info.plist */,
+				CCA38C1F4230859E4C4FA4D633B2C6F4 /* TabMicro-prefix.pch */,
+				A9606CF6297FCB1C9ED3B374F07E2FEB /* TabMicro-umbrella.h */,
+				D3376B584D7A4FC9508E00197EAE135A /* TabMicro.debug.xcconfig */,
+				67C5E3B973C3F76F35C6DA1C31168237 /* TabMicro.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/TabMicro";
+			sourceTree = "<group>";
+		};
+		23CF3A97B9A70E9EAF365DB447BDD88C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3086C74290EA73C574C1C977E32EDBF9 /* FavoriteMicro.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2654AE9DEF59E5F3A432A0AC97BD4542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				470E766BE41864C07FFF1FAB0E3C9D6E /* FavoriteMicro */,
+				33D149663B12E0A00047FA15B5B27689 /* HomeMicro */,
+				014217D81BFC91318AE7246D27F2261A /* Pods-Cocoapod_Movie_MicroApp */,
+				C573026942DE8DDA188C6D58255779A2 /* SearchMicro */,
+				29DE562DF96DB7B010765BE8CE54365C /* TabMicro */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2991F3342DF3E5B51645BB9A6F6D5F63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A3A45D20C79E27B058CE96BD19E1B /* Pods-Cocoapod_Movie_MicroApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29AE757ECA9FF71022D1902463972B15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1C2222FC28CB37ED70F94BBD586743 /* FavoriteMicro.modulemap */,
+				F505E3BC429B42D2CA0B8FBC6E09007B /* FavoriteMicro-dummy.m */,
+				D6294AB84D0685A0C99E650865C03401 /* FavoriteMicro-Info.plist */,
+				233155486C963619430C78DAA9461899 /* FavoriteMicro-prefix.pch */,
+				5107B0DDAB431901150311F89C3D7AD8 /* FavoriteMicro-umbrella.h */,
+				676BD10EC3C5EDCD787F645816A7271F /* FavoriteMicro.debug.xcconfig */,
+				E1A08E02A40760BD33EC758D55BB350B /* FavoriteMicro.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/FavoriteMicro";
+			sourceTree = "<group>";
+		};
+		49C10D0A9692B474E5F0B22848ED58EC /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				97A3B3CB688E2056B20E2597AD22822C /* SearchView.swift */,
+			);
+			name = SearchView;
+			path = SearchMicro/SearchView;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66A45FEB9DCC5C7B169ECA91B7EEB223 /* TabMicro */ = {
+			isa = PBXGroup;
+			children = (
+				627C671F0A47B0624E65FD342DB444C1 /* BottomTabView.swift */,
+				E91ED539A7312B7B6DD70259E1AE7340 /* Pod */,
+				1708E84D6B60CA5E44E465780A5892A2 /* Support Files */,
+			);
+			name = TabMicro;
+			path = ../Libraries/Modules/TabMicro;
+			sourceTree = "<group>";
+		};
+		7E29C1DCFEDB470FF8B366B007E8827A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2FD087D48DC76C937A1A5037A348AF /* HomeMicro.modulemap */,
+				08304A29E83C9CBA4BC2984993C6095A /* HomeMicro-dummy.m */,
+				D86A9C9F49CEB990A41DDB31D7D5A3B3 /* HomeMicro-Info.plist */,
+				1C8C15CEFF53B3C6165311790BD02BB6 /* HomeMicro-prefix.pch */,
+				26A82F33C033238B2A7B547944686D2B /* HomeMicro-umbrella.h */,
+				3EA5D72AA198398CB46B63DAA0DC69A1 /* HomeMicro.debug.xcconfig */,
+				B8E4F4D3A0225F65B29B27BF856AFCE7 /* HomeMicro.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/HomeMicro";
+			sourceTree = "<group>";
+		};
+		7EBD96C754A7352D28A317BF013F419A /* FavoriteNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				2766533CFB3B785C026D948929C8AF09 /* FavoriteNavigationView.swift */,
+			);
+			name = FavoriteNavigationView;
+			path = FavoriteMicro/FavoriteNavigationView;
+			sourceTree = "<group>";
+		};
+		80B24A420147F5DABC4C3876F6E8A308 /* FavoriteMicro */ = {
+			isa = PBXGroup;
+			children = (
+				7EBD96C754A7352D28A317BF013F419A /* FavoriteNavigationView */,
+				B49FB00095DFD3973EB12F2882F8CA51 /* FavoriteView */,
+				23CF3A97B9A70E9EAF365DB447BDD88C /* Pod */,
+				29AE757ECA9FF71022D1902463972B15 /* Support Files */,
+			);
+			name = FavoriteMicro;
+			path = ../Libraries/Modules/FavoriteMicro;
+			sourceTree = "<group>";
+		};
+		A3FBDBA1341D8675E808754AB7E5D7EC /* SearchMicro */ = {
+			isa = PBXGroup;
+			children = (
+				0C825D88E8921B6667EAF1815F3F8B26 /* Pod */,
+				FC68CC8C2AFA4CEA6FE78959E3BBDFBC /* SearchNavigationView */,
+				49C10D0A9692B474E5F0B22848ED58EC /* SearchView */,
+				07ECB1675B9A80965CE179476C06444D /* Support Files */,
+			);
+			name = SearchMicro;
+			path = ../Libraries/Modules/SearchMicro;
+			sourceTree = "<group>";
+		};
+		A99C9212941B0490F6F3B60204FA41A3 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9E70CED2FE1F3922398F790F64842616 /* HomeView.swift */,
+			);
+			name = HomeView;
+			path = HomeMicro/HomeView;
+			sourceTree = "<group>";
+		};
+		AD4A3A45D20C79E27B058CE96BD19E1B /* Pods-Cocoapod_Movie_MicroApp */ = {
+			isa = PBXGroup;
+			children = (
+				E0AEC91A9CF274EF761B363CA28BC85E /* Pods-Cocoapod_Movie_MicroApp.modulemap */,
+				4BFC641853484A6A3C6B3898661DFDB6 /* Pods-Cocoapod_Movie_MicroApp-acknowledgements.markdown */,
+				6091D3ACD88A0B852794E7D3345088B2 /* Pods-Cocoapod_Movie_MicroApp-acknowledgements.plist */,
+				A61C61B3CAC04BB203B1F70BD7445EED /* Pods-Cocoapod_Movie_MicroApp-dummy.m */,
+				92F0411DABA7C7EF590FCF3E83468E3B /* Pods-Cocoapod_Movie_MicroApp-frameworks.sh */,
+				01B9FF86EEE5135401F24F35AC51FF7E /* Pods-Cocoapod_Movie_MicroApp-Info.plist */,
+				1C1B1F67037B475B2F53B579868C2CDB /* Pods-Cocoapod_Movie_MicroApp-umbrella.h */,
+				740235F8B7C348DA3212F7D9653D60A9 /* Pods-Cocoapod_Movie_MicroApp.debug.xcconfig */,
+				8E23ABE7D0D92F7AFC1797AD05EAC2D5 /* Pods-Cocoapod_Movie_MicroApp.release.xcconfig */,
+			);
+			name = "Pods-Cocoapod_Movie_MicroApp";
+			path = "Target Support Files/Pods-Cocoapod_Movie_MicroApp";
+			sourceTree = "<group>";
+		};
+		B49FB00095DFD3973EB12F2882F8CA51 /* FavoriteView */ = {
+			isa = PBXGroup;
+			children = (
+				738165106DE2FEC810F915E853C52008 /* FavoriteView.swift */,
+			);
+			name = FavoriteView;
+			path = FavoriteMicro/FavoriteView;
+			sourceTree = "<group>";
+		};
+		C7213153629DA6F7469B8A51FC9B3A3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80B24A420147F5DABC4C3876F6E8A308 /* FavoriteMicro */,
+				F3254C9C629A30FDA6A04FA3D52612DB /* HomeMicro */,
+				A3FBDBA1341D8675E808754AB7E5D7EC /* SearchMicro */,
+				66A45FEB9DCC5C7B169ECA91B7EEB223 /* TabMicro */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C7213153629DA6F7469B8A51FC9B3A3B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2654AE9DEF59E5F3A432A0AC97BD4542 /* Products */,
+				2991F3342DF3E5B51645BB9A6F6D5F63 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91ED539A7312B7B6DD70259E1AE7340 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44137E8936680BE5AD3AFD72838B80FC /* TabMicro.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F3254C9C629A30FDA6A04FA3D52612DB /* HomeMicro */ = {
+			isa = PBXGroup;
+			children = (
+				035AE7A21BCC2F356B4BA19382217CDD /* HomeNavigationView */,
+				A99C9212941B0490F6F3B60204FA41A3 /* HomeView */,
+				08BF6A74283B2E3DCACED7A7663986A3 /* Pod */,
+				7E29C1DCFEDB470FF8B366B007E8827A /* Support Files */,
+			);
+			name = HomeMicro;
+			path = ../Libraries/Modules/HomeMicro;
+			sourceTree = "<group>";
+		};
+		FC68CC8C2AFA4CEA6FE78959E3BBDFBC /* SearchNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				7A52D8B3B510C64DFA93F40723DC0729 /* SearchNavigationView.swift */,
+			);
+			name = SearchNavigationView;
+			path = SearchMicro/SearchNavigationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FEB03B091B65ECE0CEB8194192A3937 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EA22E11E5E538349C3825C1FF4350 /* FavoriteMicro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF1A9B334B30DF6CEDCAAB57F7B8912 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73486610A4A90F343EBBF31926A3E8BF /* Pods-Cocoapod_Movie_MicroApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E82459CA5D6BC94857891DC4E7FDC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74459B2495CFD627717721BFFC973ABC /* HomeMicro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACEA490CCC2075E5965876D90E23701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4C6A13F912EB4AA12F8E0315A25FC0 /* TabMicro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF84FC34D360270AC16398EB59B1B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA123A51EBFD47C259001F8942C732 /* SearchMicro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C9E5F9C1F5A01A03884F169D35B4317 /* FavoriteMicro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A72354B974015B89DB6B46A06E56D5 /* Build configuration list for PBXNativeTarget "FavoriteMicro" */;
+			buildPhases = (
+				1FEB03B091B65ECE0CEB8194192A3937 /* Headers */,
+				765C3B41938AA104ED6A94DCBC3919B5 /* Sources */,
+				3DB0066250503CFB9A33740796D0C748 /* Frameworks */,
+				26A1F19B4EB30F144580E84F72A58FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FavoriteMicro;
+			productName = FavoriteMicro;
+			productReference = 470E766BE41864C07FFF1FAB0E3C9D6E /* FavoriteMicro */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CD6BB6264C4460E9A5514C98D9E24CA /* Pods-Cocoapod_Movie_MicroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDDB56BBC921D20A861C767ACE3DEC5 /* Build configuration list for PBXNativeTarget "Pods-Cocoapod_Movie_MicroApp" */;
+			buildPhases = (
+				2BF1A9B334B30DF6CEDCAAB57F7B8912 /* Headers */,
+				02D18D228804B0C161491820A87FE053 /* Sources */,
+				661EA948E2EB784F76350811724D13FE /* Frameworks */,
+				4B6C04B05A34EE8FF0371E3FDE9B003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B401A719B7675DD7E1113664D7CFE1 /* PBXTargetDependency */,
+				ACD4F8905BD3AF9A149E614F68EE1F4F /* PBXTargetDependency */,
+				3887B5BD348343D836904DB435773143 /* PBXTargetDependency */,
+				8AF3FC89E1C9F40069C0E78AD12018AB /* PBXTargetDependency */,
+			);
+			name = "Pods-Cocoapod_Movie_MicroApp";
+			productName = Pods_Cocoapod_Movie_MicroApp;
+			productReference = 014217D81BFC91318AE7246D27F2261A /* Pods-Cocoapod_Movie_MicroApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FF126141A2C7DBBDD585979B8DEC3B8 /* HomeMicro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E945966FEAA8D3D2B7133CB1A65E377C /* Build configuration list for PBXNativeTarget "HomeMicro" */;
+			buildPhases = (
+				61E82459CA5D6BC94857891DC4E7FDC9 /* Headers */,
+				FD5E23AF5DBBA4EDB4415AF22B1ADF8C /* Sources */,
+				C44135D488EDEEAEE4EB4CE19EAF1F82 /* Frameworks */,
+				47F9D1CD4ABF4A25789A5910888A6D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeMicro;
+			productName = HomeMicro;
+			productReference = 33D149663B12E0A00047FA15B5B27689 /* HomeMicro */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEE09E996A689F1604E005615A4E23DC /* TabMicro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AE3E3A138A711ACD2710E4B73BC3A0 /* Build configuration list for PBXNativeTarget "TabMicro" */;
+			buildPhases = (
+				7ACEA490CCC2075E5965876D90E23701 /* Headers */,
+				BC9EC07C9D00FAE077F913F2FEAE457B /* Sources */,
+				F7D7D6EF592B408801AE24FB00E181ED /* Frameworks */,
+				281F0EBC1C0D19E07A3512007763E024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C8A53F0B021B7A425F2BD673FC08E8 /* PBXTargetDependency */,
+				0F8353697518D66CAD25AAB21A8BFD82 /* PBXTargetDependency */,
+				B7E48D86EDC8380C9727A16204C0E48B /* PBXTargetDependency */,
+			);
+			name = TabMicro;
+			productName = TabMicro;
+			productReference = 29DE562DF96DB7B010765BE8CE54365C /* TabMicro */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8260CBC06828436726120B0068DA4E2 /* SearchMicro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F8218B12D0F288C3D96C23AE201031 /* Build configuration list for PBXNativeTarget "SearchMicro" */;
+			buildPhases = (
+				DAAF84FC34D360270AC16398EB59B1B5 /* Headers */,
+				F0404F624164EB6D0029137B051193E0 /* Sources */,
+				8AB27B8A55FFC86F5CFB6F14B668616A /* Frameworks */,
+				492BC44F567944C96CE2BC55E76CCFCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchMicro;
+			productName = SearchMicro;
+			productReference = C573026942DE8DDA188C6D58255779A2 /* SearchMicro */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2654AE9DEF59E5F3A432A0AC97BD4542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C9E5F9C1F5A01A03884F169D35B4317 /* FavoriteMicro */,
+				9FF126141A2C7DBBDD585979B8DEC3B8 /* HomeMicro */,
+				8CD6BB6264C4460E9A5514C98D9E24CA /* Pods-Cocoapod_Movie_MicroApp */,
+				E8260CBC06828436726120B0068DA4E2 /* SearchMicro */,
+				DEE09E996A689F1604E005615A4E23DC /* TabMicro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A1F19B4EB30F144580E84F72A58FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281F0EBC1C0D19E07A3512007763E024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F9D1CD4ABF4A25789A5910888A6D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492BC44F567944C96CE2BC55E76CCFCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6C04B05A34EE8FF0371E3FDE9B003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D18D228804B0C161491820A87FE053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C4A74780734EE91711F4EAA1A83D6E /* Pods-Cocoapod_Movie_MicroApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765C3B41938AA104ED6A94DCBC3919B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89699C3D2DEDA9265CF441245B1FDAC /* FavoriteMicro-dummy.m in Sources */,
+				E3893E4BDA232BB6166446B77798A3E2 /* FavoriteNavigationView.swift in Sources */,
+				B7E96770329E6CA79FA1A694AAF04B08 /* FavoriteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9EC07C9D00FAE077F913F2FEAE457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC30A4901EF1BB9A523565552BB91C2A /* BottomTabView.swift in Sources */,
+				C114CCCD52296D3477EF87F11393638E /* TabMicro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0404F624164EB6D0029137B051193E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EA89077DD81DB0F30780AFC95C9BEE /* SearchMicro-dummy.m in Sources */,
+				9B3A4F6225A1081A319525430D29CC68 /* SearchNavigationView.swift in Sources */,
+				13CF0C6F337A056BB471868AC6C9C72E /* SearchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5E23AF5DBBA4EDB4415AF22B1ADF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED679A6948328C4CDC486EBAB006EB59 /* HomeMicro-dummy.m in Sources */,
+				3FCCCFF5CA00BBD3F2E75437EF0CA66E /* HomeNavigationView.swift in Sources */,
+				9FA5D59850803E1B84EEDEC773467159 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F8353697518D66CAD25AAB21A8BFD82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HomeMicro;
+			target = 9FF126141A2C7DBBDD585979B8DEC3B8 /* HomeMicro */;
+			targetProxy = CE98D88EF7396B20D5FB50E6A555906E /* PBXContainerItemProxy */;
+		};
+		3887B5BD348343D836904DB435773143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SearchMicro;
+			target = E8260CBC06828436726120B0068DA4E2 /* SearchMicro */;
+			targetProxy = 0A97D69C19925DDBC165172A9FCFE5B3 /* PBXContainerItemProxy */;
+		};
+		39C8A53F0B021B7A425F2BD673FC08E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FavoriteMicro;
+			target = 5C9E5F9C1F5A01A03884F169D35B4317 /* FavoriteMicro */;
+			targetProxy = 09EA41AB0345551C5F0395B9594C96FA /* PBXContainerItemProxy */;
+		};
+		8AF3FC89E1C9F40069C0E78AD12018AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TabMicro;
+			target = DEE09E996A689F1604E005615A4E23DC /* TabMicro */;
+			targetProxy = 86D7D99C3975D85EACDD84B515B67284 /* PBXContainerItemProxy */;
+		};
+		ACD4F8905BD3AF9A149E614F68EE1F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HomeMicro;
+			target = 9FF126141A2C7DBBDD585979B8DEC3B8 /* HomeMicro */;
+			targetProxy = BE266507C000B2EE3F132253D04F0087 /* PBXContainerItemProxy */;
+		};
+		B7E48D86EDC8380C9727A16204C0E48B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SearchMicro;
+			target = E8260CBC06828436726120B0068DA4E2 /* SearchMicro */;
+			targetProxy = 8FBCE5CABBC387D4FF160FFD5DF527C5 /* PBXContainerItemProxy */;
+		};
+		D6B401A719B7675DD7E1113664D7CFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FavoriteMicro;
+			target = 5C9E5F9C1F5A01A03884F169D35B4317 /* FavoriteMicro */;
+			targetProxy = EDA3623C0D21EF050ED51C44474F6D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0133BF4B3E34473533F17900D95109E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A08E02A40760BD33EC758D55BB350B /* FavoriteMicro.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FavoriteMicro/FavoriteMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FavoriteMicro/FavoriteMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FavoriteMicro/FavoriteMicro.modulemap";
+				PRODUCT_MODULE_NAME = FavoriteMicro;
+				PRODUCT_NAME = FavoriteMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0E53D99C085350AFA4AA4B3F3C6A3942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC27D9F72710130BC4FE6F2F19A55DC /* SearchMicro.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SearchMicro/SearchMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SearchMicro/SearchMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SearchMicro/SearchMicro.modulemap";
+				PRODUCT_MODULE_NAME = SearchMicro;
+				PRODUCT_NAME = SearchMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		142190100F94D00F5087A53C07EF2870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E23ABE7D0D92F7AFC1797AD05EAC2D5 /* Pods-Cocoapod_Movie_MicroApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cocoapod_Movie_MicroApp/Pods-Cocoapod_Movie_MicroApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cocoapod_Movie_MicroApp/Pods-Cocoapod_Movie_MicroApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A941FA8104DC9AE170B8A8525A4C810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7A8B9DD46241262E84D7298476D30A /* SearchMicro.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SearchMicro/SearchMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SearchMicro/SearchMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SearchMicro/SearchMicro.modulemap";
+				PRODUCT_MODULE_NAME = SearchMicro;
+				PRODUCT_NAME = SearchMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D7F46FE84BBB72DB3ADE7E3C275FD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C5E3B973C3F76F35C6DA1C31168237 /* TabMicro.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TabMicro/TabMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TabMicro/TabMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TabMicro/TabMicro.modulemap";
+				PRODUCT_MODULE_NAME = TabMicro;
+				PRODUCT_NAME = TabMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		504FB1303550C5D662B14F7149E52D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA5D72AA198398CB46B63DAA0DC69A1 /* HomeMicro.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HomeMicro/HomeMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HomeMicro/HomeMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HomeMicro/HomeMicro.modulemap";
+				PRODUCT_MODULE_NAME = HomeMicro;
+				PRODUCT_NAME = HomeMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60B91A0582C79B4C2A29054F88A6500C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3376B584D7A4FC9508E00197EAE135A /* TabMicro.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TabMicro/TabMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TabMicro/TabMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TabMicro/TabMicro.modulemap";
+				PRODUCT_MODULE_NAME = TabMicro;
+				PRODUCT_NAME = TabMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BFE76C34EBC359AA480A4E4C374EE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E4F4D3A0225F65B29B27BF856AFCE7 /* HomeMicro.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HomeMicro/HomeMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HomeMicro/HomeMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HomeMicro/HomeMicro.modulemap";
+				PRODUCT_MODULE_NAME = HomeMicro;
+				PRODUCT_NAME = HomeMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90181C507BF4FD30F3975DB02263B445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740235F8B7C348DA3212F7D9653D60A9 /* Pods-Cocoapod_Movie_MicroApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cocoapod_Movie_MicroApp/Pods-Cocoapod_Movie_MicroApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cocoapod_Movie_MicroApp/Pods-Cocoapod_Movie_MicroApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F98B7852520C9DA9B9A51756047DDA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676BD10EC3C5EDCD787F645816A7271F /* FavoriteMicro.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FavoriteMicro/FavoriteMicro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FavoriteMicro/FavoriteMicro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FavoriteMicro/FavoriteMicro.modulemap";
+				PRODUCT_MODULE_NAME = FavoriteMicro;
+				PRODUCT_NAME = FavoriteMicro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A72354B974015B89DB6B46A06E56D5 /* Build configuration list for PBXNativeTarget "FavoriteMicro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98B7852520C9DA9B9A51756047DDA61 /* Debug */,
+				0133BF4B3E34473533F17900D95109E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F8218B12D0F288C3D96C23AE201031 /* Build configuration list for PBXNativeTarget "SearchMicro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A941FA8104DC9AE170B8A8525A4C810 /* Debug */,
+				0E53D99C085350AFA4AA4B3F3C6A3942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDDB56BBC921D20A861C767ACE3DEC5 /* Build configuration list for PBXNativeTarget "Pods-Cocoapod_Movie_MicroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90181C507BF4FD30F3975DB02263B445 /* Debug */,
+				142190100F94D00F5087A53C07EF2870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AE3E3A138A711ACD2710E4B73BC3A0 /* Build configuration list for PBXNativeTarget "TabMicro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B91A0582C79B4C2A29054F88A6500C /* Debug */,
+				4D7F46FE84BBB72DB3ADE7E3C275FD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E945966FEAA8D3D2B7133CB1A65E377C /* Build configuration list for PBXNativeTarget "HomeMicro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504FB1303550C5D662B14F7149E52D45 /* Debug */,
+				8BFE76C34EBC359AA480A4E4C374EE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
