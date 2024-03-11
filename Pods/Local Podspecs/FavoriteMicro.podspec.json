@@ -16,5 +16,19 @@
   "platforms": {
     "ios": "17.0"
   },
+  "dependencies": {
+    "CommonUI": [
+      "~> 0.0.1"
+    ],
+    "DataModels": [
+      "~> 0.0.1"
+    ],
+    "Navigation": [
+      "~> 0.0.1"
+    ],
+    "UserData": [
+      "~> 0.0.1"
+    ]
+  },
   "swift_version": "5.0"
 }

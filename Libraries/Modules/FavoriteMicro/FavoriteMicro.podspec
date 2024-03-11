@@ -12,6 +12,10 @@ Pod::Spec.new do |spec|
   spec.source_files  = "FavoriteMicro/**/*.{swift}"
   spec.swift_versions = '5.0'
   spec.ios.deployment_target = "17.0"
+  spec.dependency 'CommonUI', '~> 0.0.1'
+  spec.dependency 'DataModels', '~> 0.0.1'
+  spec.dependency 'Navigation', '~> 0.0.1'
+  spec.dependency 'UserData', '~> 0.0.1'
 
 end
 

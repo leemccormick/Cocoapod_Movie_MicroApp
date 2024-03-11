@@ -12,6 +12,9 @@
 		B26633882B9F594F00CF0A9E /* FavoriteMicroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633872B9F594F00CF0A9E /* FavoriteMicroTests.swift */; };
 		B26633A22B9F661300CF0A9E /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633A12B9F661300CF0A9E /* FavoriteView.swift */; };
 		B26633A42B9F662F00CF0A9E /* FavoriteNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26633A32B9F662F00CF0A9E /* FavoriteNavigationView.swift */; };
+		B26634F52B9FB15C00CF0A9E /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26634F42B9FB15C00CF0A9E /* FavoriteRouter.swift */; };
+		B26634F82B9FB18300CF0A9E /* FavoriteNavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26634F72B9FB18300CF0A9E /* FavoriteNavigationViewModel.swift */; };
+		B26634FA2B9FB24700CF0A9E /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26634F92B9FB24700CF0A9E /* FavoriteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +32,11 @@
 		B266337C2B9F594E00CF0A9E /* FavoriteMicro.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FavoriteMicro.docc; sourceTree = "<group>"; };
 		B26633822B9F594F00CF0A9E /* FavoriteMicroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoriteMicroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26633872B9F594F00CF0A9E /* FavoriteMicroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMicroTests.swift; sourceTree = "<group>"; };
-		B26633A12B9F661300CF0A9E /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteView.swift; path = "FavoriteMicro/New Group/FavoriteView.swift"; sourceTree = SOURCE_ROOT; };
+		B26633A12B9F661300CF0A9E /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteView.swift; path = FavoriteMicro/FavoriteView/FavoriteView.swift; sourceTree = SOURCE_ROOT; };
 		B26633A32B9F662F00CF0A9E /* FavoriteNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNavigationView.swift; sourceTree = "<group>"; };
+		B26634F42B9FB15C00CF0A9E /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
+		B26634F72B9FB18300CF0A9E /* FavoriteNavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNavigationViewModel.swift; sourceTree = "<group>"; };
+		B26634F92B9FB24700CF0A9E /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B26633AB2B9F67F700CF0A9E /* FavoriteView */,
-				B266339F2B9F655800CF0A9E /* FavoriteNavigationView */,
+				B266339F2B9F655800CF0A9E /* FavoriteNavigation */,
 				B266337C2B9F594E00CF0A9E /* FavoriteMicro.docc */,
 			);
 			path = FavoriteMicro;
@@ -88,20 +94,39 @@
 			path = FavoriteMicroTests;
 			sourceTree = "<group>";
 		};
-		B266339F2B9F655800CF0A9E /* FavoriteNavigationView */ = {
+		B266339F2B9F655800CF0A9E /* FavoriteNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				B26633A32B9F662F00CF0A9E /* FavoriteNavigationView.swift */,
+				B26634F32B9FB14500CF0A9E /* Router */,
+				B26634F62B9FB16700CF0A9E /* Root */,
 			);
-			path = FavoriteNavigationView;
+			path = FavoriteNavigation;
 			sourceTree = "<group>";
 		};
 		B26633AB2B9F67F700CF0A9E /* FavoriteView */ = {
 			isa = PBXGroup;
 			children = (
 				B26633A12B9F661300CF0A9E /* FavoriteView.swift */,
+				B26634F92B9FB24700CF0A9E /* FavoriteViewModel.swift */,
 			);
 			path = FavoriteView;
+			sourceTree = "<group>";
+		};
+		B26634F32B9FB14500CF0A9E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B26634F42B9FB15C00CF0A9E /* FavoriteRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B26634F62B9FB16700CF0A9E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B26633A32B9F662F00CF0A9E /* FavoriteNavigationView.swift */,
+				B26634F72B9FB18300CF0A9E /* FavoriteNavigationViewModel.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26634FA2B9FB24700CF0A9E /* FavoriteViewModel.swift in Sources */,
+				B26634F52B9FB15C00CF0A9E /* FavoriteRouter.swift in Sources */,
 				B26633A22B9F661300CF0A9E /* FavoriteView.swift in Sources */,
+				B26634F82B9FB18300CF0A9E /* FavoriteNavigationViewModel.swift in Sources */,
 				B266337D2B9F594E00CF0A9E /* FavoriteMicro.docc in Sources */,
 				B26633A42B9F662F00CF0A9E /* FavoriteNavigationView.swift in Sources */,
 			);
