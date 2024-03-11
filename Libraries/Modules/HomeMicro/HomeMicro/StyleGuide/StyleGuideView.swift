@@ -5,6 +5,7 @@
 //  Created by Lee McCormick on 3/11/24.
 //
 
+import ApiService
 import CommonUI
 import DataModels
 import SwiftUI
@@ -12,7 +13,7 @@ import SwiftUI
 struct StyleGuideView: View {
     @State private var searchText: String = ""
     @State private var isSearching: Bool = false
-    
+        
     var body: some View {
         ScrollView {
             Text("Style Guide")

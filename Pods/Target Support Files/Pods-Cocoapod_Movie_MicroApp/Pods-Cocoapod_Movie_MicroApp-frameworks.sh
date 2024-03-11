@@ -176,6 +176,7 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ApiService/ApiService.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FavoriteMicro/FavoriteMicro.framework"
@@ -186,6 +187,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/UserData/UserData.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ApiService/ApiService.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FavoriteMicro/FavoriteMicro.framework"

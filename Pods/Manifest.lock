@@ -1,10 +1,13 @@
 PODS:
+  - ApiService (0.0.1):
+    - DataModels (~> 0.0.1)
   - CommonUI (0.0.1):
     - DataModels (~> 0.0.1)
     - UserData (~> 0.0.1)
   - DataModels (0.0.1)
   - FavoriteMicro (0.0.1)
   - HomeMicro (0.0.1):
+    - ApiService (~> 0.0.1)
     - CommonUI (~> 0.0.1)
     - DataModels (~> 0.0.1)
     - Navigation (~> 0.0.1)
@@ -18,6 +21,7 @@ PODS:
     - DataModels (~> 0.0.1)
 
 DEPENDENCIES:
+  - ApiService (from `./Libraries/Utilities/ApiService`)
   - CommonUI (from `./Libraries/Utilities/CommonUI`)
   - DataModels (from `./Libraries/Utilities/DataModels`)
   - FavoriteMicro (from `./Libraries/Modules/FavoriteMicro`)
@@ -28,6 +32,8 @@ DEPENDENCIES:
   - UserData (from `./Libraries/Utilities/UserData`)
 
 EXTERNAL SOURCES:
+  ApiService:
+    :path: "./Libraries/Utilities/ApiService"
   CommonUI:
     :path: "./Libraries/Utilities/CommonUI"
   DataModels:
@@ -46,15 +52,16 @@ EXTERNAL SOURCES:
     :path: "./Libraries/Utilities/UserData"
 
 SPEC CHECKSUMS:
+  ApiService: 09cc63cbbc7c57bc646954c8691744519f8d1e6d
   CommonUI: eafb053ededa2987216233275d3d4df174531637
   DataModels: 7a8a832ad2eb95452f275bdb9f28266e80b60adc
   FavoriteMicro: ffaa8ee05b40f5714b412cbdde728bc53eefd064
-  HomeMicro: 58238be2e2e8ee3eb6f562c2695c3c8339b0f266
+  HomeMicro: ee4acca866702c4b8f29d5f54031f0832ae9f98a
   Navigation: 5bb23277c7a254c33dfbda50b67ed7f878c88b24
   SearchMicro: 661966450c8285681d01eceed541e376eb19fa5d
   TabMicro: b58af8fbe81d89df12ed0de5c62181e33a3d1e0b
   UserData: 6666196b7c4cc4aef8cf1fda05d41a071b8cb973
 
-PODFILE CHECKSUM: f365f39fd4c64b1db58192987ffde5163c0e22a9
+PODFILE CHECKSUM: 9c17f1f4de20e21ad9af54da0f9306865b41834a
 
 COCOAPODS: 1.13.0

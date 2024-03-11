@@ -29,6 +29,53 @@ struct HomeView: View {
                 viewModel.seeStyleGuideButtonTapped()
             }
             .buttonStyle(GreenButton(isEnabled: true))
+            
+            
+            if !viewModel.horrorpMovies.isEmpty {
+                VStack {
+                    HStack {
+                        Text("Horror Movies")
+                            .subTitleTextStyle()
+                            .padding()
+                            .border(Color.secondaryDark)
+                        
+                        Spacer()
+                            .frame(maxWidth: .infinity)
+                    }
+                    
+                    ScrollView(.horizontal) {
+                        HStack {
+                            ForEach(viewModel.horrorpMovies, id: \.self) { movie in
+                                MovieCard(movie: movie)
+                            }
+                        }
+                    }
+                }
+                .padding()
+            }
+            
+            if !viewModel.romanticMovies.isEmpty {
+                VStack {
+                    HStack {
+                        Text("Romantic Movies")
+                            .subTitleTextStyle()
+                            .padding()
+                            .border(Color.secondaryDark)
+                        
+                        Spacer()
+                            .frame(maxWidth: .infinity)
+                    }
+                    
+                    ScrollView(.horizontal) {
+                        HStack {
+                            ForEach(viewModel.romanticMovies, id: \.self) { movie in
+                                MovieCard(movie: movie)
+                            }
+                        }
+                    }
+                }
+                .padding()
+            }
         }
         .onAppear { self.didAppear?(self) }
         .padding()

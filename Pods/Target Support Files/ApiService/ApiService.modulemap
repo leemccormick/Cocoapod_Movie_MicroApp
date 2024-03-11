@@ -1,0 +1,6 @@
+framework module ApiService {
+  umbrella header "ApiService-umbrella.h"
+
+  export *
+  module * { export * }
+}

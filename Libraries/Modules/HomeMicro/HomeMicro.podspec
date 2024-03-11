@@ -15,5 +15,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'CommonUI', '~> 0.0.1'
   spec.dependency 'DataModels', '~> 0.0.1'
   spec.dependency 'Navigation', '~> 0.0.1'
+  spec.dependency 'ApiService', '~> 0.0.1'
 
 end

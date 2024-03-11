@@ -5,30 +5,31 @@
 //  Created by Lee McCormick on 3/11/24.
 //
 
-//import ApiService
+import ApiService
 import DataModels
 import Foundation
 import Navigation
 
+@MainActor
 public class HomeViewModel: ObservableObject {
-    @Published var mockTopMovies: [Movie] = []
-    @Published var mockRecentMovies: [Movie] = []
+    @Published var horrorpMovies: [Movie] = []
+    @Published var romanticMovies: [Movie] = []
     
-    var homeRouter = HomeRouter.shared
-    //    var movieService = MovieService.shared
+    private let homeRouter = HomeRouter.shared
+    private let movieService = MovieService.shared
     
     init() {
-        //        Task {
-        //            do {
-        //                let batmanResponse = try await movieService.getMovies(bySearchTerm: "batman") ?? []
-        //                let supermanResponse = try await movieService.getMovies(bySearchTerm: "superman") ?? []
-        //                mockRecentMovies = batmanResponse
-        //                mockTopMovies = supermanResponse
-        //            } catch {
-        //                // TODO: Handel error here..;
-        //                print("Error : An error occur when fetching data.")
-        //            }
-        //        }
+        Task {
+            do {
+                let horrorResponse = try await movieService.getMovies(bySearchTerm: "horror")
+                let romanticResponse = try await movieService.getMovies(bySearchTerm: "romantic")
+                horrorpMovies = horrorResponse
+                romanticMovies = romanticResponse
+            } catch {
+                // TODO: Handel error here..;
+                print("Error : An error occur when fetching data. ")
+            }
+        }
     }
     
     func seeStyleGuideButtonTapped() {

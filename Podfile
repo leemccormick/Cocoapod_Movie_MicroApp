@@ -14,4 +14,5 @@ target 'Cocoapod_Movie_MicroApp' do
   pod 'DataModels', :path => './Libraries/Utilities/DataModels'
   pod 'UserData', :path => './Libraries/Utilities/UserData'
   pod 'Navigation', :path => './Libraries/Utilities/Navigation'
+  pod 'ApiService', :path => './Libraries/Utilities/ApiService'
 end
