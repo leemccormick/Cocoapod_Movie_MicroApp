@@ -1,9 +1,9 @@
 {
-  "name": "CommonUI",
+  "name": "UserData",
   "version": "0.0.1",
-  "summary": "A short description of CommonUI.",
-  "description": "A CommonUI pod for demonstration purposes.",
-  "homepage": "http://EXAMPLE/CommonUI",
+  "summary": "A short description of UserData.",
+  "description": "A UserData pod for demonstration purposes.",
+  "homepage": "http://EXAMPLE/DataModels",
   "license": "MIT",
   "authors": {
     "Lee McCormick": "lee.mccormick@dialexa.com"
@@ -11,16 +11,13 @@
   "source": {
     "path": "."
   },
-  "source_files": "CommonUI/**/*.{swift}",
+  "source_files": "UserData/**/*.{swift}",
   "swift_versions": "5.0",
   "platforms": {
     "ios": "17.0"
   },
   "dependencies": {
     "DataModels": [
-      "~> 0.0.1"
-    ],
-    "UserData": [
       "~> 0.0.1"
     ]
   },

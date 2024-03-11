@@ -182,6 +182,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HomeMicro/HomeMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SearchMicro/SearchMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TabMicro/TabMicro.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UserData/UserData.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework"
@@ -190,6 +191,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HomeMicro/HomeMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SearchMicro/SearchMicro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TabMicro/TabMicro.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UserData/UserData.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

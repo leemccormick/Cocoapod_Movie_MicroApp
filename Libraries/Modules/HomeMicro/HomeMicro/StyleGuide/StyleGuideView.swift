@@ -7,8 +7,6 @@
 
 import CommonUI
 import DataModels
-//import FeatureComponent
-//import FeatureView
 import SwiftUI
 
 struct StyleGuideView: View {
@@ -32,15 +30,15 @@ struct StyleGuideView: View {
             
             SearchBarGuideView(searchText: $searchText, isSearching: $isSearching)
             UnderlineView()
-                        
-                        MovieRowView()
-                        UnderlineView()
-                        
-                        MovieCardView()
-                        UnderlineView()
-            //            
-            //            MovieDetailsDemoView()
-            //            UnderlineView()
+            
+            MovieRowView()
+            UnderlineView()
+            
+            MovieCardView()
+            UnderlineView()
+            
+            MovieDetailsDemoView()
+            UnderlineView()
         }
     }
 }
@@ -222,28 +220,28 @@ struct MovieCardView: View {
     }
 }
 
-//// Movie Details Common
-//struct MovieDetailsDemoView: View {
-//    let mockMovie = Movie(
-//        title: "Movie Title",
-//        year: "0000",
-//        imdbId: "12345",
-//        type: "movie",
-//        posterUrl: "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-//    )
-//    
-//    var body: some View {
-//        VStack {
-//            Text("Movie Details Common Guide")
-//                .subTitleTextStyle()
-//                .padding()
-//                .border(Color.secondaryDark)
-//            
-//            MovieDetailsView(movie: mockMovie)
-//        }
-//        .padding(.bottom)
-//    }
-//}
+// Movie Details Common
+struct MovieDetailsDemoView: View {
+    let mockMovie = Movie(
+        title: "Movie Title",
+        year: "0000",
+        imdbId: "12345",
+        type: "movie",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    )
+    
+    var body: some View {
+        VStack {
+            Text("Movie Details Common Guide")
+                .subTitleTextStyle()
+                .padding()
+                .border(Color.secondaryDark)
+            
+            MovieDetailsView(movie: mockMovie)
+        }
+        .padding(.bottom)
+    }
+}
 
 // MARK: - Preview
 
